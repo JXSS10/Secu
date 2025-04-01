@@ -1,6 +1,6 @@
 <?php
 //=========التوكن=========//
-$token = "توكن"; 
+$token = "7461358634:AAHqk9o56O33T6uy8h4rWFFs_GmNwlhzZXc"; 
 define("API_KEY", $token);
 echo "setWebhook ~> <a href=\"https://api.telegram.org/bot".API_KEY."/setwebhook?url=".$_SERVER['SERVER_NAME']."".$_SERVER['SCRIPT_NAME']."\">https://api.telegram.org/bot".API_KEY."/setwebhook?url=".$_SERVER['SERVER_NAME']."".$_SERVER['SCRIPT_NAME']."</a>";
 function bot($method,$datas=[]){
@@ -106,15 +106,15 @@ $UserDevpe = json_decode(file_get_contents("http://api.telegram.org/bot$token/ge
 $NameDevpe = json_decode(file_get_contents("http://api.telegram.org/bot$token/getChat?chat_id=$admin"))->result->first_name;
 
 #############
-$admin = "5203138115";
-$Dev = array("$admin","5203138115");
-$eri = array("$admin","5203138115");
-$idbot = "5534586215";
+$admin = "6169288210";
+$Dev = array("$admin","6169288210");
+$eri = array("$admin","6169288210");
+$idbot = "7461358634";
 $sudo = "$admin";
 $buy = "kindi3";
 $DevUser = "@$buy";
 $devchink = "TH3NK";
-$userbot = "AlKindibot";
+$userbot = "Leechxs1bot";
 $chsource = "$devchink";
 ############
 if ($tc == 'private'){  
